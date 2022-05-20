@@ -2,10 +2,11 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Outlet, Link } from 'react-router-dom';
-import OurProject from './OurProject';
+import Home from './Home';
 import About from './About';
+import OurProject from './OurProject';
+
 import styles from './style.css';
-import logo from './img/logo.png';
 
 const App = () => (
   <div>
@@ -19,11 +20,9 @@ const App = () => (
       <Link className="home" to="/">
         Home
       </Link>{' '}
-      |{' '}
       <Link className="about" to="/about">
         About
       </Link>{' '}
-      |{' '}
       <Link className="project" to="/ourproject">
         Project
       </Link>

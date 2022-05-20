@@ -2,8 +2,8 @@ import React from 'react';
 
 const OurProject = () => {
   return (
-    <main>
-      <h2>OurProject</h2>
+    <main className="main__OurProject">
+      <h2>Our Project</h2>
       <p>TADY BUDE TEXT</p>
     </main>
   );
