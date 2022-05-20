@@ -5,6 +5,7 @@ import { Outlet, Link } from 'react-router-dom';
 import OurProject from './OurProject';
 import About from './About';
 import styles from './style.css';
+import logo from './img/logo.png';
 
 const App = () => (
   <div>
@@ -27,7 +28,9 @@ const App = () => (
         Project
       </Link>
     </nav>
-    <h1 className="Title">un poco LOGO</h1>
+    <h1 className="title">
+      un poco<br></br> LOGO
+    </h1>
     <Outlet />
   </div>
 );
