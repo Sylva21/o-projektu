@@ -4,19 +4,30 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Outlet, Link } from 'react-router-dom';
 import OurProject from './OurProject';
 import About from './About';
+import styles from './style.css';
 
 const App = () => (
   <div>
-    <h1>un poco LOGO</h1>
     <nav
+      className="navigation"
       style={{
         borderBottom: 'solid 1px',
         paddingBottom: '1rem',
       }}
     >
-      <Link to="/">Home</Link> | <Link to="/about">About</Link> |{' '}
-      <Link to="/ourproject">OurProject</Link>
+      <Link className="home" to="/">
+        Home
+      </Link>{' '}
+      |{' '}
+      <Link className="about" to="/about">
+        About
+      </Link>{' '}
+      |{' '}
+      <Link className="project" to="/ourproject">
+        Project
+      </Link>
     </nav>
+    <h1 className="Title">un poco LOGO</h1>
     <Outlet />
   </div>
 );
