@@ -5,7 +5,7 @@ import { Outlet, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import OurProject from './OurProject';
-
+import logo from './img/logo.svg';
 import styles from './style.css';
 
 const App = () => (
@@ -27,9 +27,10 @@ const App = () => (
         Project
       </Link>
     </nav>
-    <h1 className="title">
-      un poco<br></br> LOGO
-    </h1>
+
+    <div className="container__logo">
+      <img className="logo" src={logo} />
+    </div>
     <Outlet />
   </div>
 );

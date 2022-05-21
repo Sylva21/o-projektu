@@ -4,7 +4,6 @@
 }
 
 html {
-  height: 100px;
   background: radial-gradient(circle farthest-side, #7e3244, #241320);
   background-repeat: no-repeat;
   height: 100%;
@@ -31,13 +30,22 @@ html {
   color: #a73e58;
 }
 
-.title {
+.container__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 20rem;
+  margin-top: 5rem;
+}
+/*.title {
   margin-top: 270px;
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
   text-align: center;
-}
+}*/
 
 /*stylování komponent*/
 .main__OurProject,
