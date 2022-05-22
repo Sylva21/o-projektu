@@ -3,8 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <main className="main__About">
-      <div className="title">ABOUT US</div>
-      <div className="text"></div>
+      <h2></h2>
       Hello, we are Sylva and Niki, girls who have decided to change their whole
       lives. We both have a goal, after graduating from the Digital Academy, to
       make a programming, if you want coding. What you should know about us is
