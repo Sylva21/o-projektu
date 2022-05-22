@@ -71,4 +71,10 @@ p {
 
 ul {
   list-style-type: disc;
+  text-align: center;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
