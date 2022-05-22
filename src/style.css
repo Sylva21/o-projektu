@@ -10,7 +10,7 @@ html {
 }
 
 .navigation {
-  padding: 10px 15px;
+  padding: 20px 20px;
   text-transform: uppercase;
   text-align: right;
   display: block;
@@ -30,7 +30,7 @@ html {
   color: #a73e58;
 }
 
-.container__logo {
+.logo-container {
   display: flex;
   justify-content: center;
 }
@@ -39,13 +39,6 @@ html {
   width: 20rem;
   margin-top: 5rem;
 }
-/*.title {
-  margin-top: 270px;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 50px;
-  text-align: center;
-}*/
 
 /*stylování komponent*/
 .main__OurProject,
