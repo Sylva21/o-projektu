@@ -4,7 +4,7 @@ const OurProject = () => {
   return (
     <main className="main__OurProject">
       <h2>Our Project</h2>
-      <p>TADY BUDE TEXT</p>
+      <p>popis naseho projektu</p>
     </main>
   );
 };

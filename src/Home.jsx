@@ -1,10 +1,13 @@
 import React from 'react';
+import logo from './img/logo.svg';
 
 const Home = () => {
   return (
-    <h1 className="title">
-      un poco<br></br> LOGOsos
-    </h1>
+    <main>
+      <div className="logo-container">
+        <img className="logo" src={logo} />
+      </div>
+    </main>
   );
 };
 
