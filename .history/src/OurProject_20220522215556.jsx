@@ -13,10 +13,8 @@ const OurProject = () => {
         <li>Specifically, we focused on speech therapy and speech defects.</li>
         <li>
           We came up with the game together, its basis will be the connection
-          between parents and children.
-        </li>
-        <li>
-          Especially the effort to pronounce either letters or words correctly.
+          between parents and children and especially the effort to pronounce
+          either letters or words correctly.
         </li>
         <li>
           There are levels in the game at which children must complete tasks.

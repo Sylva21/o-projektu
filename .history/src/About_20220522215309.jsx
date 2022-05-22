@@ -1,7 +1,7 @@
 import React from 'react';
 import image from './img/us.jpg';
 
-//<img src={image} alt="us" />;
+<img src={image} alt="us" />;
 
 const About = () => {
   return (

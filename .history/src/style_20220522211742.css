@@ -73,12 +73,7 @@ ul {
   list-style-type: disc;
 }
 
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-
 img {
   max-width: 100%;
-  padding: 2rem;
+  height: auto;
 }
