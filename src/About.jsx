@@ -4,7 +4,7 @@ const About = () => {
   return (
     <main className="main__About">
       <h2>About</h2>
-      <p>We are 2 crazy girls!</p>
+      <p>popis o nas</p>
     </main>
   );
 };

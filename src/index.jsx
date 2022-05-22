@@ -28,9 +28,6 @@ const App = () => (
       </Link>
     </nav>
 
-    <div className="container__logo">
-      <img className="logo" src={logo} />
-    </div>
     <Outlet />
   </div>
 );
@@ -39,6 +36,16 @@ createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
+        <Route
+          path="/"
+          element={
+            <main>
+              <div className="container__logo">
+                <img className="logo" src={logo} />
+              </div>
+            </main>
+          }
+        />
         <Route path="ourproject" element={<OurProject />} />
         <Route path="about" element={<About />} />
         <Route
